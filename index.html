@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Imersão Dev - Aula 07</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png"
+        class="page-logo"
+        alt=""
+      />
+      <h1 class="page-title">Trunfo of Death</h1>
+      <div id="placar">
+        <tr>
+          <td>
+            <div id="pJogador"></div>
+          </td>
+          <td>X</td>
+          <td>
+            <div id="pMaquina"></div>
+          </td>
+        </tr>
+      </div>
+      <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+      <button
+        class="button-jogar"
+        type="button"
+        id="btnJogar"
+        onclick="jogar()"
+        disabled="false"
+      >
+        Jogar
+      </button>
+      <form id="form">
+        <h2>Escolha o seu atributo</h2>
+        <div class="wrapper">
+          <div>
+            <div id="carta-jogador">
+              <img
+                src="assets/card2.png"
+                style="width: inherit; height: inherit; position: absolute"
+              />
+              <h3></h3>
+            </div>
+          </div>
+          <div>
+            <div id="carta-maquina" class="carta">
+              <img
+                src="assets/card2.png"
+                style="width: inherit; height: inherit; position: absolute"
+              />
+            </div>
+          </div>
+        </div>
+      </form>
+      <div id="resultado"></div>
+    </div>
+  </body>
+
+  <script src="main.js"></script>
+</html>
