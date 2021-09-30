@@ -65,6 +65,7 @@ exibirPlacar()
 function sortearCarta() {
   zerarCarta('carta-jogador')
   zerarCarta('carta-maquina')
+  resultado.innerHTML = ''
 
   let numeroDaCarta = parseInt(Math.random() * 6)
   cartaMaquina = cartas[numeroDaCarta]
