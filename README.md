@@ -6,6 +6,6 @@ Pelo menos conseguir fazer tudo que eu queria, so acho que não ficou bonito.
 
 <h2>Tecs</h2>
 <li>HTML</li>
-<li>HTML</li>
-<li>HTML</li>
-<li>HTML</li>
+<li>Css</li>
+<li>Java Script</li>
+
