@@ -1,5 +1,4 @@
-# Trunfo-Of-Death
-
+# Triumph of Death
 I created this project in collaboration with Alura during the Imersão Dev.
 
 This repository contains the source code and necessary resources to play the classic card game "Super Trunfo". The Super Trunfo game is a web implementation developed using HTML, CSS, and JavaScript. The objective is to provide fun and entertainment to the players.
